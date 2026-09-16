@@ -1,5 +1,3 @@
-# Add comments before you do anything else.
-
 #!/usr/bin/env python3
 # Author: Darcy McLaughlin 
 # Date: 16/09/26
@@ -28,5 +26,3 @@ print (type (x))
 # What did you observe?
 x = "hello"
 print (type (x))
-
-git add .
