@@ -19,13 +19,14 @@ print ( "How are you {}? Happy {}th birthday!"  .format (name, age))
 words = "The quick brown fox jumps over the lazy dog"
 # The value of words should be "The quick brown fox jumps over the lazy dog".
 # Use indexing to return the first and 17th charecters of "words" to the user.
-print (words[1 17])
+print (words [1:17])
 
 #TO-DO 3:
 # Use negative indexing to return the words "jumps" and "quick" from "words" to the user.
-print (words[-41, -44])
+print (words[-39:-34])
+print (words[-23:-18])
 
 #TO-DO 4:
 # Use slicing to retun everything between index 2-15 to the user.
 # Print "uick brown foxs ju" from "words".
-print (words[2:15])
+print (words[5:22])
